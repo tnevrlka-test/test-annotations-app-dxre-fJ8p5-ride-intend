@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: test-annotations-tskx
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/tnevrlka-test/build-e2e-chgj-tenant/test-annotations-app-dxre/test-annotations-tskx@sha256:2b7c743851811ef2f43cbaa02497fc9466b4fbd09523c25e81baf66aef150aeb
+        name: my-nginx
+        resources: {}
+status: {}
